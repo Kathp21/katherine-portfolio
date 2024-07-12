@@ -3,4 +3,11 @@
 
 $main-typeface: 'Poppins', Arial, Helvetica, sans-serif;
 
-$text-color : rbg(85, 85, 85)
+$text-color : rbg(85, 85, 85);
+$black : black;
+$white: white;
+$link-hover: grey;
+
+// MEDIA QUERIES
+$tablet-breakpoint: 47.938rem; /* 767px */
+$desktop-breakpoint: 80rem; /* 1280px */

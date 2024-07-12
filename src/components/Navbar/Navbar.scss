@@ -1,13 +1,91 @@
-@use '../../../styles/partials/mixins';
-@use '../../../styles/partials/variables';
+@use '../../../styles/partials/mixins' as *;
+@use '../../../styles/partials/variables' as *;
 
 .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 17vh;
+    position: relative;
+
+    &__bar-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 17vh;
+
+        @include desktop {
+            justify-content: flex-start;
+        }
+    }
 
     &__link {
         display: flex;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    &__logo {
+        font-size: 2rem;
+        text-decoration: none;
+
+
+        &:hover {
+            cursor: default;
+        }
+    }
+
+    &__burger-menu {
+        display: block;
+
+        height: 24px;
+        width: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        @include desktop {
+            display: none;
+        }
+    }
+
+    &__link-container {
+        display: none;
+        width: 50%;
+        position: absolute;
+        transition: all 0.3s ease-in-out;
+        top: 100%;
+        right: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+
+        @include desktop {
+            display: flex;
+            justify-content: space-around;
+            position: absolute;
+            box-shadow: none;
+            top: 0;
+            margin: 2rem 0;
+
+        }
+        
+        &--open {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            @include desktop {
+                flex-direction: row;
+            }
+        }
+    }
+
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    text-decoration-color: $white;
+
+    &:hover {
+        color: $link-hover;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        text-decoration-color:  rgb(181, 181, 181);
     }
 }

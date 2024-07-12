@@ -1,21 +1,42 @@
 import './Navbar.scss'
+import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 const Navbar = () => {
 
+    const [ openMenu, setOpenMenu ] = useState(false)
 
+    const toggleMenu = () => {
+        setOpenMenu(prevState => !prevState)
+    }
 
     return (
-        <nav className="nav">
-            <div>Katherine Phan</div>
-            <div>
-                <ul className="nav__link">
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Project</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        </nav>
+        <header className="nav">
+            <nav className="nav__bar-container">
+                <Link className='nav__logo'>Katherine Phan</Link>
+                <FontAwesomeIcon
+                    icon= { openMenu ? faTimes : faBars}
+                    className = 'nav__burger-menu'
+                    onClick = {toggleMenu}
+                />
+            </nav>
+            <section className={`nav__link-container ${openMenu ? 'nav__link-container--open' : ''}`}>
+                <div className="nav__link">
+                    <Link to="/about">About</Link>
+                </div>
+                <div className="nav__link">
+                    <Link to="/experience">Experience</Link>
+                </div>
+                <div className="nav__link">
+                    <Link to="/projects">Projects</Link>
+                </div>
+                <div className="nav__link">
+                    <Link to="/contact">Contact</Link>
+                </div>
+            </section>
+        </header>
     )
 
 }
