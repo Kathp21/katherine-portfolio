@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+// BREAKPOINTS
+
+@mixin tablet {
+    @media (min-width: $tablet-breakpoint) {
+        @content;
+    }
+  }
+  
+@mixin desktop {
+  @media (min-width: $desktop-breakpoint) {
+      @content;
+  }
+}
+
+@mixin burger-menu {
+  @media (max-width: $burger-menu-breakpoint) {
+    @content;
+  }
+}

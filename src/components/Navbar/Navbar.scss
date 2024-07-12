@@ -1,0 +1,13 @@
+@use '../../../styles/partials/mixins';
+@use '../../../styles/partials/variables';
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+
+    &__link {
+        display: flex;
+    }
+}
