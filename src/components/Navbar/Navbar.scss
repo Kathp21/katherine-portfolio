@@ -3,21 +3,25 @@
 
 .nav {
     position: relative;
+    padding: 2rem;
+
+    @include desktop {
+        padding: 3.5rem;
+    }
 
     &__bar-container {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 17vh;
+
 
         @include desktop {
             justify-content: flex-start;
+
         }
     }
 
     &__link {
-        display: flex;
-        gap: 2rem;
         font-size: 1.5rem;
     }
 
@@ -60,7 +64,7 @@
             position: absolute;
             box-shadow: none;
             top: 0;
-            margin: 2rem 0;
+            padding: 3.5rem;
 
         }
         
