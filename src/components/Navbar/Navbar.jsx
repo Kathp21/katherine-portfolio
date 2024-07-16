@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import logo from '../../assets/images/initial-logo.png'
 
 const Navbar = () => {
 
@@ -15,7 +16,9 @@ const Navbar = () => {
     return (
         <header className="nav">
             <nav className="nav__bar-container">
-                <Link className='nav__logo'>Katherine Phan</Link>
+                <Link>
+                    <img src={logo} alt='initial logo' className='nav__logo'/>
+                </Link>
                 <FontAwesomeIcon
                     icon= { openMenu ? faTimes : faBars}
                     className = 'nav__burger-menu'

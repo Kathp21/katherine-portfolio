@@ -59,6 +59,14 @@
     &__text {
         align-items: center;
         text-align: center;
+
+        @include tablet {
+            flex: 0.4;
+        }
+
+        @include desktop {
+            flex: 1;
+        }
     }
 
     &__linkedin-logo {

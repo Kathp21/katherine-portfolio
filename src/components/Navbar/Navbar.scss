@@ -11,7 +11,7 @@
 
     &__bar-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 
 
@@ -26,11 +26,10 @@
     }
 
     &__logo {
-        font-size: 1.3rem;
-        text-decoration: none;
+        width: 3rem;
 
         @include tablet {
-            font-size: 2rem;
+            width: 5rem;
         }
 
         &:hover {
