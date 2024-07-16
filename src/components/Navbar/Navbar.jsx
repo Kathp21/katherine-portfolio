@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
-import logo from '../../assets/images/initial-logo.png'
+import logo from '../../assets/images/portfolio-logo.png'
 
 const Navbar = () => {
 
