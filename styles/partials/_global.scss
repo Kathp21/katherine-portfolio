@@ -22,3 +22,11 @@ p {
 a, button {
     transition: all 300ms ease;
 }
+
+h1 {
+    font-size: 1.5rem;
+
+    @include desktop {
+        font-size: 3rem;
+    }
+}

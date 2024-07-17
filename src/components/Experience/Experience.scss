@@ -1,0 +1,117 @@
+@use '../../../styles/partials/mixins' as *;
+@use '../../../styles/partials/variables' as *;
+
+
+.experience {
+    position: relative;
+
+    &__text-p1 {
+        text-align: center;
+        font-weight: 500;
+    }
+    
+
+    &__title {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    &__details-containers {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    
+        @include tablet {
+            padding: 2rem 11rem;
+        }
+
+        @include desktop {
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 2rem 9rem;
+            gap: 3rem;
+        }
+    }
+
+    &__details {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border: rgb(53, 53, 53) 0.1rem solid;
+        border-color: rgb(163, 163, 163);
+        border-radius: 2rem;
+        text-align: center;
+
+        @include desktop {
+            padding: 2rem 4rem;
+        }
+    }
+
+    &__sub-title {
+        color: $text-color;
+        font-weight: 600;
+        font-size: 1.5rem;
+
+        @include tablet {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        @include desktop {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+    }
+
+    &__article-container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        
+
+        @include desktop {
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap:2.5rem;
+            align-items: flex-start;
+            justify-content: space-around;
+        }
+    }
+
+    &__article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        @include tablet {
+            flex: 2;
+            gap: 0;
+        }
+    }
+
+
+    &__icon {
+        height: 2rem;
+        cursor: default;
+    }
+
+    &__arrow {
+        margin: 1rem auto;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        width: 2rem;
+    }
+}
+
+div {
+
+    @include tablet {
+        flex: 0.3;
+    }
+
+    @include desktop {
+        flex: 0.1rem;
+    }
+}
