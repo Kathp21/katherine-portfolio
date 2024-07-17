@@ -31,6 +31,10 @@
             align-items: center;
             gap: 2rem;
         }
+
+        @include desktop {
+            gap: 4rem;
+        }
     }
 
     &__profile {
@@ -115,6 +119,7 @@
 
         @include desktop {
             font-size: 3rem;
+            margin: 0;
         }
     }
 
