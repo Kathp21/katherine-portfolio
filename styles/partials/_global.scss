@@ -11,6 +11,10 @@ body, html {
     font-family: $main-typeface;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     color: $text-color;
 }

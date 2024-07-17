@@ -2,8 +2,8 @@ import profilePic from '../../assets/images/profile-picture.JPG'
 import resume from '../../assets/resume/Resume.pdf'
 import Navbar from '../Navbar/Navbar'
 import './Header.scss'
-import linkedin from '../../assets/images/linkedin-logo.jpg'
-import github from '../../assets/images/github-logo.jpg'
+import linkedin from '../../assets/icons/linkedin.png'
+import github from '../../assets/icons/github.png'
 
 const Header = () => {
 
@@ -15,6 +15,7 @@ const Header = () => {
         <>
             <Navbar/>
             <header className="header">
+                <div className='header__container'>
                 <section className="header__profile">
                     <img src={profilePic} className='header__picture' alt='Profile-picture'/>
                 </section>
@@ -30,17 +31,18 @@ const Header = () => {
                         <img 
                             src={linkedin} 
                             alt='Linkedin logo' 
-                            className='header__linkedin-logo'
+                            className='header__logo'
                             onClick={() => window.open('https://www.linkedin.com/in/katherine-phan21', '_blank')}
                         />
                         <img 
                             src={github} 
                             alt='Github logo' 
-                            className='header__github-logo'
+                            className='header__logo'
                             onClick={() => window.open('https://github.com/Kathp21', '_blank')}
                         />
                     </div>
                 </section>
+                </div>
             </header>
         </>
     )

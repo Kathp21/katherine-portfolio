@@ -1,5 +1,6 @@
 import './Navbar.scss'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
@@ -13,7 +14,7 @@ const Navbar = () => {
         setOpenMenu(prevState => !prevState)
     }
 
-    return (
+    return ( 
         <header className="nav">
             <nav className="nav__bar-container">
                 <Link>
@@ -27,16 +28,16 @@ const Navbar = () => {
             </nav>
             <section className={`nav__link-container ${openMenu ? 'nav__link-container--open' : ''}`}>
                 <div className="nav__link">
-                    <Link to="/about">About</Link>
+                    <HashLink smooth to="/#about">About</HashLink>
                 </div>
                 <div className="nav__link">
-                    <Link to="/experience">Experience</Link>
+                    <HashLink smooth to="/#experience">Experience</HashLink>
                 </div>
                 <div className="nav__link">
-                    <Link to="/projects">Projects</Link>
+                    <HashLink smooth to="/#projects">Projects</HashLink>
                 </div>
                 <div className="nav__link">
-                    <Link to="/contact">Contact</Link>
+                    <HashLink smooth to="/#contact">Contact</HashLink>
                 </div>
             </section>
         </header>
