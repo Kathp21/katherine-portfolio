@@ -29,7 +29,7 @@
         @include desktop {
             flex-direction: row;
             justify-content: space-around;
-            padding: 2rem 9rem;
+            padding: 2rem 6rem;
             gap: 3rem;
         }
     }
@@ -96,22 +96,30 @@
         cursor: default;
     }
 
+    &__skill {
+        @include tablet {
+            flex: 0.3;
+        }
+    
+        @include desktop {
+            flex: 0.1rem;
+        }
+    }
+
+    &__text {
+        font-size: 1.2rem;
+
+        @include tablet {
+            font-size: 1.5rem;
+        }
+
+    }
+
     &__arrow {
         margin: 1rem auto;
         cursor: pointer;
         position: absolute;
         right: 1rem;
         width: 2rem;
-    }
-}
-
-div {
-
-    @include tablet {
-        flex: 0.3;
-    }
-
-    @include desktop {
-        flex: 0.1rem;
     }
 }

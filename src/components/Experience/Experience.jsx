@@ -22,8 +22,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>HTML</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>HTML</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -32,8 +32,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>CSS/SASS</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>CSS/SASS</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -42,8 +42,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>JavaScript</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>JavaScript</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -52,8 +52,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>React</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>React</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -62,8 +62,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>TypeScript</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>TypeScript</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -72,8 +72,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>TailwindCSS</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>TailwindCSS</h3>
                             </div>
                         </article>    
                     </div>
@@ -87,8 +87,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>MySQL</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>MySQL</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -97,8 +97,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>Node JS</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>Node JS</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -107,8 +107,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>Express JS</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>Express JS</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -117,8 +117,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>Knex JS</h3>
+                            <div className='experience__skill'> 
+                                <h3 className='experience__text'>Knex JS</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -127,8 +127,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>Migration</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>Migration</h3>
                             </div>
                         </article>
                         <article className='experience__article'>
@@ -137,8 +137,8 @@ const Experience = () => {
                                 alt="Experience icon"
                                 className="experience__icon"
                             />
-                            <div>
-                                <h3>Git</h3>
+                            <div className='experience__skill'>
+                                <h3 className='experience__text'>Git</h3>
                             </div>
                         </article>
                     </div>
