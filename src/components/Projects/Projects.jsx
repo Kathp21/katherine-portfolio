@@ -24,7 +24,7 @@ const Projects = () => {
                             className="projects__img"
                         />
                     </div>
-                    <h2 className='projects__sub-title'>Project One</h2>
+                    <h2 className='projects__sub-title'>Trip Crafters</h2>
                     <div className='projects__btn-container'>
                         <button 
                             className='projects__btn projects__btn--color-1'
@@ -44,7 +44,7 @@ const Projects = () => {
                             className="projects__img"
                         />
                     </div>
-                    <h2 className='projects__sub-title'>Project One</h2>
+                    <h2 className='projects__sub-title'>EmpowerMe</h2>
                     <div className='projects__btn-container'>
                         <button 
                             className='projects__btn'
@@ -64,7 +64,7 @@ const Projects = () => {
                             className="projects__img"
                         />
                     </div>
-                    <h2 className='projects__sub-title'>Project One</h2>
+                    <h2 className='projects__sub-title'>InStock</h2>
                     <div className='projects__btn-container'>
                         <button 
                             className='projects__btn'
@@ -81,7 +81,7 @@ const Projects = () => {
                             className="projects__img"
                         />
                     </div>
-                    <h2 className='projects__sub-title'>Project One</h2>
+                    <h2 className='projects__sub-title'>BrainFlix</h2>
                     <div className='projects__btn-container'>
                         <button 
                             className='projects__btn'
