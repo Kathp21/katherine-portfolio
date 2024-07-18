@@ -1,5 +1,5 @@
-import brainFix from '../../assets/images/brainFlix-2.png'
-import instock from '../../assets/images/instock-1.png'
+import brainFix from '../../assets/images/brainFlix-1.png'
+import instock from '../../assets/images/instock-2.png'
 import tripCrafters from '../../assets/images/tripCrafters-1.png'
 import empowerMe from '../../assets/images/empowerMe-2.png'
 import arrow from '../../assets/icons/arrow.png'
@@ -27,11 +27,11 @@ const Projects = () => {
                     <h2 className='projects__sub-title'>Trip Crafters</h2>
                     <div className='projects__btn-container'>
                         <button 
-                            className='projects__btn projects__btn--color-1'
+                            className='projects__btn'
                             onClick={() => window.open('https://github.com/Kathp21/Katherine-Phan-capstone')}
                         >GitHub</button>
                         <button 
-                            className='projects__btn projects__btn--color-1'
+                            className='projects__btn'
                             onClick={() => window.open('https://tripcrafters.netlify.app')}
                         >Live Demo</button>
                     </div>
