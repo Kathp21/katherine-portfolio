@@ -41,7 +41,7 @@ const AboutMe = () => {
             <img
                 src={arrow}
                 alt='Arrow icon'
-                className='about__arrow'
+                className='arrow'
                 onClick={handleArrowClick}
             />
         </section>

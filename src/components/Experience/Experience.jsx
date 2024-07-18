@@ -147,7 +147,7 @@ const Experience = () => {
             <img
                 src={arrow}
                 alt='Arrow icon'
-                className='experience__arrow'
+                className='arrow'
                 onClick={handleArrowClick}
             />
         </section>

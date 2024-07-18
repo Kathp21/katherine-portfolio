@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
           </section>
           <section id="experience">
             <Experience/>
+          </section>
+          <section id="projects">
+            <Projects/>
           </section>
         </div>}/>
       </Routes>
