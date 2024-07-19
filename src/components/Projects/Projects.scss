@@ -25,10 +25,10 @@
             gap: 2rem;
         }
 
-        @include desktop {
-            gap: 3rem;
-            padding: 2rem 7rem;
-        }
+        // @include desktop {
+        //     gap: 3rem;
+        //     padding: 2rem 7rem;
+        // }
     }
 
     &__details {
@@ -42,7 +42,7 @@
         }
 
         @include desktop {
-            padding: 2rem 3rem;
+            padding: 2rem;
         }
     }
 
