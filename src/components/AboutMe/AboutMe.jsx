@@ -25,28 +25,27 @@ const AboutMe = () => {
                 </div>
 
                 <div className='about__text-container'>
-                    {/* <div className='about__details-container'> */}
-                        <div className='about__containers'>
-                            <div className='about__details'>
-                                <img 
-                                    src={experience} 
-                                    alt='experience icon'
-                                    className='about__icon'
-                                />
-                                <h3 className='about__title'>Experience</h3>
-                                <p className='about__info'>1+ year <br/>Transfer Agent</p>
-                            </div>
-                            <div className='about__details'>
-                                <img 
-                                    src={education} 
-                                    alt='education icon'
-                                    className='about__icon'
-                                />
-                                <h3 className='about__title'>Education</h3>
-                                <p className='about__info'>Software Engineering Diploma</p>
-                            </div>
+                    <div className='about__containers'>
+                        <div className='about__details'>
+                            <img 
+                                src={experience} 
+                                alt='experience icon'
+                                className='about__icon'
+                            />
+                            <h3 className='about__title'>Experience</h3>
+                            <p className='about__info'>1+ year <br/>Transfer Agent</p>
                         </div>
-                    {/* </div> */}
+                        <div className='about__details'>
+                            <img 
+                                src={education} 
+                                alt='education icon'
+                                className='about__icon'
+                            />
+                            <h3 className='about__title'>Education</h3>
+                            <p className='about__info'>Software Engineering Diploma</p>
+                        </div>
+                    </div>
+
                     <div className='about__profile'>
                         <p> My name is Katherine. I have experince in office administration and nursing, but my passion for programming and problem
                             solving led me to pursue a career in software development. With a strong foundation in administrative and nursing,
