@@ -11,7 +11,7 @@
         margin-top: 1.5rem;
 
         @include tablet {
-            height: 15vh;
+            // height: 15vh;
             margin-top: 3.5rem;
         }
 
@@ -60,7 +60,7 @@
         border-radius: 1rem;
 
         @include tablet {
-            height: 45vh;
+            height: 20rem;
         }
 
         @include desktop {

@@ -5,7 +5,7 @@ import arrow from '../../assets/icons/arrow.png'
 const Experience = () => {
 
     const handleArrowClick = () => {
-        window.location.href = '#experience'
+        window.location.href = '#projects'
     }
 
     return (

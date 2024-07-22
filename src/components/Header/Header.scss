@@ -52,8 +52,7 @@
     }
 
     &__picture {
-        height: 50%;
-        width: 50%;
+        width: 12rem;
         border-radius: 50%;
 
         @include tablet {
