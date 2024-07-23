@@ -1,0 +1,48 @@
+@use '../../../styles/partials/mixins' as *;
+@use '../../../styles/partials/variables' as *;
+
+.footer {
+    margin-top: 2rem;
+
+    &__nav-link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        @include desktop {
+            gap: 2rem;
+        }
+    }
+
+    &__copy-right {
+        text-align: center;
+    }
+
+    &__link {
+        font-size: 1.3rem;
+
+        @include tablet {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    text-decoration-color: $white;
+
+    &:hover {
+        color: $link-hover;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        text-decoration-color:  rgb(181, 181, 181);
+    }
+}
