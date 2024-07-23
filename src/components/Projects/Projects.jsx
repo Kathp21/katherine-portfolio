@@ -8,7 +8,7 @@ import './Projects.scss'
 const Projects = () => {
 
     const handleArrowClick = () => {
-        window.location.href = '#projects'
+        window.location.href = '#contact'
     }
 
     return (

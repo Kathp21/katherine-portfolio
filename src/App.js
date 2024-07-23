@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </section>
           <section id="projects">
             <Projects/>
+          </section>
+          <section id="contact">
+            <Contact/>
           </section>
         </div>}/>
       </Routes>

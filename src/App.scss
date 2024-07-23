@@ -2,28 +2,28 @@
 @use './styles/partials/mixins' as *;
 @use './styles/partials/variables' as *;
 
-#about {
-    height: 115vh;
+// #about {
+//     height: 115vh;
 
-    @include tablet {
-        height: 90vh;
-    }
+//     @include tablet {
+//         height: 90vh;
+//     }
 
-}
+// }
 
 
-#projects {
-    height: 90vh;
-}
+// #projects {
+//     height: 90vh;
+// }
 
-#experience {
-    height: 145vh;
+// #experience {
+//     height: 145vh;
 
-    @include tablet {
-        height: 155vh;
-    }
+//     @include tablet {
+//         height: 155vh;
+//     }
 
-    @include desktop {
-        height: 90vh;
-    }
-}
+//     @include desktop {
+//         height: 90vh;
+//     }
+// }
