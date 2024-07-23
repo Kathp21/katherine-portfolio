@@ -1,8 +1,8 @@
 import './AboutMe.scss'
 import experience from '../../assets/icons/experience.png'
 import education from '../../assets/icons/education.png'
-import arrow from '../../assets/icons/arrow.png'
 import aboutMe from '../../assets/images/about-me.png'
+import Arrow from '../Arrow/Arrow'
 
 const AboutMe = () => {
 
@@ -56,14 +56,9 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            
-
-            <img
-                src={arrow}
-                alt='Arrow icon'
-                className='arrow'
-                onClick={handleArrowClick}
-            />
+            <div className='about__arrow-container'>
+                <Arrow onClick={handleArrowClick}/>
+            </div>
         </section>
     )
 }

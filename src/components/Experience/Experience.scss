@@ -130,4 +130,9 @@
             font-size: 1.5rem;
         }
     }
+
+    &__arrow-container {
+        display: flex;
+        justify-content: flex-end;
+    }
 }

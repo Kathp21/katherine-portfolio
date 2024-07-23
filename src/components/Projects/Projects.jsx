@@ -2,7 +2,7 @@ import brainFix from '../../assets/images/brainFlix-1.png'
 import instock from '../../assets/images/instock-2.png'
 import tripCrafters from '../../assets/images/tripCrafters-1.png'
 import empowerMe from '../../assets/images/empowerMe-2.png'
-import arrow from '../../assets/icons/arrow.png'
+import Arrow from '../Arrow/Arrow'
 import './Projects.scss'
 
 const Projects = () => {
@@ -91,12 +91,10 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <img
-                src={arrow}
-                alt='Arrow icon'
-                className='arrow'
-                onClick={handleArrowClick}
-            />
+            <div className='projects__arrow-container'>
+                <Arrow onClick={handleArrowClick}/>
+            </div>
+
         </section>
     )
 }

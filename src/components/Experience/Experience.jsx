@@ -1,6 +1,6 @@
 import './Experience.scss'
 import checkMark from '../../assets/icons/checkmark.png'
-import arrow from '../../assets/icons/arrow.png'
+import Arrow from '../Arrow/Arrow'
 
 const Experience = () => {
 
@@ -122,12 +122,9 @@ const Experience = () => {
                 </div>
             </div>
             </div>
-            <img
-                src={arrow}
-                alt='Arrow icon'
-                className='arrow'
-                onClick={handleArrowClick}
-            />
+            <div className='experience__arrow-container'>
+                <Arrow onClick={handleArrowClick}/>
+            </div>
         </section>
     )
 }

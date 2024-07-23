@@ -2,7 +2,7 @@
 @use '../../../styles/partials/variables' as *;
 
 .about {
-    position: relative;
+    // position: relative;
 
     &__headline {
         display: flex;
@@ -138,5 +138,10 @@
         @include desktop {
             padding: 0 0 0 2rem;
         }
+    }
+
+    &__arrow-container {
+        display: flex;
+        justify-content: flex-end;
     }
 }
