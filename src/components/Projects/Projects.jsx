@@ -2,6 +2,7 @@ import brainFix from '../../assets/images/brainFlix-1.png'
 import instock from '../../assets/images/instock-2.png'
 import tripCrafters from '../../assets/images/tripCrafters-1.png'
 import empowerMe from '../../assets/images/empowerMe-2.png'
+import portfolio from '../../assets/images/portfolio-1.png'
 import Arrow from '../Arrow/Arrow'
 import './Projects.scss'
 
@@ -49,6 +50,26 @@ const Projects = () => {
                         <button 
                             className='projects__btn'
                             onClick={() => window.open('https://github.com/cherryontech/soft-skill-generator')}
+                        >GitHub</button>
+                        <button 
+                            className='projects__btn'
+                            onClick={() => window.open('https://empowerme.netlify.app/')}
+                        >Live Demo</button>
+                    </div>
+                </div>
+                <div className="projects__details">
+                    <div className="projects__article-container">
+                        <img
+                            src={portfolio}
+                            alt="EmpowerMe"
+                            className="projects__img"
+                        />
+                    </div>
+                    <h2 className='projects__sub-title'>Portfolio</h2>
+                    <div className='projects__btn-container'>
+                        <button 
+                            className='projects__btn'
+                            onClick={() => window.open('https://github.com/Kathp21/katherine-portfolio')}
                         >GitHub</button>
                         <button 
                             className='projects__btn'

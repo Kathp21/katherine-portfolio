@@ -2,6 +2,16 @@
 @use '../../../styles/partials/variables' as *;
 
 .arrow {
+    margin-bottom: 5rem;
+
+
+    @include tablet {
+        margin-bottom: 7rem;
+    }
+
+    @include desktop {
+        margin-bottom: 10rem;
+    }
 
     &__icon {
         margin: 1rem;

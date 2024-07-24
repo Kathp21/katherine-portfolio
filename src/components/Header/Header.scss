@@ -12,11 +12,12 @@
 
     @include tablet {
         height: 80vh;
+        padding-bottom: 15vh;
         margin: 0 4rem;
     }
 
     @include desktop {
-        padding-top: 4vh;
+        padding-bottom: 35vh;
         height: 96vh;
         margin: 0 10rem;
 
@@ -53,7 +54,6 @@
 
     &__picture {
         width: 12rem;
-        border-radius: 50%;
 
         @include tablet {
             width: 20rem;

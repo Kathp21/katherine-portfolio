@@ -1,8 +1,9 @@
 import './AboutMe.scss'
 import experience from '../../assets/icons/experience.png'
 import education from '../../assets/icons/education.png'
-import aboutMe from '../../assets/images/about-me.png'
+// import aboutMe from '../../assets/images/profile-picture.JPG'
 import Arrow from '../Arrow/Arrow'
+import avatar from '../../assets/images/profile-picture.jpg'
 
 const AboutMe = () => {
 
@@ -13,13 +14,13 @@ const AboutMe = () => {
     return (
         <section className='about'>
             <div className='about__headline'>
-                <p>Get To Know More</p>
-                <h1>About Me</h1>
+                <p className='about__text-p1'>Get To Know More</p>
+                <h1 className='about__title'>About Me</h1>
 
             </div>
             <div className='about__me-section'>
                 <div className='about__photo-container'>
-                    <img src={aboutMe} alt='About me session'
+                    <img src={avatar} alt='About me session'
                         className='about__photo'                       
                     />
                 </div>
