@@ -73,7 +73,7 @@ const Projects = () => {
                         >GitHub</button>
                         <button 
                             className='projects__btn'
-                            onClick={() => window.open('https://empowerme.netlify.app/')}
+                            onClick={() => window.open('https://katherinephan-portfolio.netlify.app/')}
                         >Live Demo</button>
                     </div>
                 </div>
