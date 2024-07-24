@@ -40,6 +40,10 @@
             align-items: center;
             padding: 2rem 8rem;
         }
+
+        @include bigger-desktop {
+            padding: 2rem 15rem;
+        }
     }
 
     &__photo-container {

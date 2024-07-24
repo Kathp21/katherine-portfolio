@@ -36,6 +36,10 @@
         @include desktop {
             padding: 2rem 8rem;
         }
+
+        @include bigger-desktop {
+            padding: 2rem 12rem;
+        }
     }
 
     &__details {
@@ -55,8 +59,12 @@
         }
 
         @include desktop {
-            padding: 2rem;
-            width: 20rem;
+            padding: 2rem 1rem;
+            width: 30rem;
+        }
+
+        @include bigger-desktop {
+            width: 28rem;
         }
     }
 
@@ -74,7 +82,7 @@
         }
 
         @include desktop {
-            width: 14rem;
+            width: 18rem;
         }
     }
 
@@ -82,6 +90,10 @@
         display: flex;
         justify-content: center;
         gap: 1rem;
+
+        @include desktop {
+            gap: 2rem;
+        }
     }
 
     &__btn {
