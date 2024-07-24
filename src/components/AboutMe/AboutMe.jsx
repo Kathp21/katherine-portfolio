@@ -1,7 +1,6 @@
 import './AboutMe.scss'
 import experience from '../../assets/icons/experience.png'
 import education from '../../assets/icons/education.png'
-// import aboutMe from '../../assets/images/profile-picture.JPG'
 import Arrow from '../Arrow/Arrow'
 import avatar from '../../assets/images/profile-picture.jpg'
 
