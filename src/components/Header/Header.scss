@@ -102,21 +102,25 @@
     }
 
     &__text-p2 {
-        font-size: 1.2rem;
+        font-size: $mobi-hero-p2;
         margin: 1rem;
         
         @include desktop {
-            font-size: 2rem;
+            font-size: $tablet-hero-p2;
         }
     }
 
     &__title {
-        font-size: 1.5rem;
+        font-size: $mobi-hero-title;
         text-align: center;
         margin: 1rem;
 
+        @include tablet {
+            font-size: $tablet-hero-title;
+        }
+
         @include desktop {
-            font-size: 3rem;
+            font-size: $desktop-hero-title;
             margin: 0;
         }
     }
@@ -151,7 +155,7 @@
         }
 
         &--color-1, &--color-2 {
-            border: rgb(53, 53, 53)0.1rem  solid;
+            border: $dark-grey-border;
 
             &:hover , &:hover {
                 cursor: pointer;
@@ -159,19 +163,19 @@
         }
 
         &--color-1:hover, &--color-2 {
-            background: rgb(53, 53, 53);
+            background: $button-hero;
             color: $white;
         }
 
         &--color-2:hover {
-            background: rgb(0, 0, 0);
+            background: $black;
         }
 
         &--color-1 {
             background: none;
 
             &:hover {
-                border:rbg(255,255,255) 0.1rem solid;
+                border:$white-border;
             }
         }
     }
