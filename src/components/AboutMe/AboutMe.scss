@@ -61,7 +61,7 @@
 
     &__photo {
         height: 10rem;
-        background: #dbd7e1;
+        background: $photo-background;
         border-radius: 1rem;
 
         @include tablet {
@@ -109,10 +109,7 @@
         flex: 1;
         margin-bottom: 1rem;
         padding: 1rem;
-        border: rgb(53, 53, 53) 0.1rem solid;
-        border-color: rgb(163, 163, 163);
-        border-radius: 2rem;
-        text-align: center;
+        @include border-box;
     }
 
     &__icon {
@@ -130,10 +127,10 @@
 
     &__info {
         margin: 0;
-        font-size: 0.813rem;
+        font-size: $mobi-paragraph;
 
         @include tablet {
-            font-size: 1rem;
+            font-size: $tablet-paragraph;
         }
     }
 

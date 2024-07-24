@@ -3,7 +3,6 @@
 
 
 .experience {
-    position: relative;
 
     &__text-p1 {
         text-align: center;
@@ -43,12 +42,9 @@
     }
 
     &__details {
+        @include border-box;
         margin-bottom: 1rem;
         padding: 1rem;
-        border: rgb(53, 53, 53) 0.1rem solid;
-        border-color: rgb(163, 163, 163);
-        border-radius: 2rem;
-        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -70,10 +66,10 @@
     &__sub-title {
         color: $text-color;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: $mobi-sub-title;
 
         @include tablet {
-            font-size: 1.8rem;
+            font-size: $tablet-sub-title;
             margin-bottom: 2rem;
         }
 

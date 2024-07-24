@@ -3,18 +3,35 @@
 
 $main-typeface: 'Poppins', Arial, Helvetica, sans-serif;
 
-$text-color : #555555;
-$black : black;
-$white: white;
-$link-hover: grey;
 
 // MEDIA QUERIES
 $tablet-breakpoint: 47.938rem; /* 767px */
 $desktop-breakpoint: 80rem; /* 1280px */
-$bigger-mobile-breakpoint: 550px;
-$bigger-desktop-breakpoint: 1435px;
+$bigger-mobile-breakpoint: 34.375rem;
+$bigger-desktop-breakpoint: 89.688rem;
 
 
 //Font-size
+$mobi-hero-text: 1rem;
+$tablet-hero-text: 1.75rem;
+
+$mobi-hero-title: 1.5rem;
+$tablet-hero-title: 3rem;
+
 $mobi-paragraph: 0.818rem;
 $tablet-paragraph: 1rem;
+
+$mobi-sub-title: 1.5rem;
+$tablet-sub-title: 1.8rem;
+
+$mobi-link: 1.3rem;
+$tablet-link: 1.5rem;
+
+
+//Color
+$text-color : #555555;
+$black : black;
+$white: white;
+$link-hover: grey;
+$photo-background: #dbd7e1;
+$link-color: #b5b5b5;

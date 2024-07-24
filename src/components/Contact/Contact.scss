@@ -56,10 +56,10 @@
     }
 
     &__text {
-        font-size: 0.875rem;
+        font-size: $mobi-paragraph;
 
         @include tablet {
-            font-size: 1rem;
+            font-size: $tablet-paragraph;
         }
     }
 }

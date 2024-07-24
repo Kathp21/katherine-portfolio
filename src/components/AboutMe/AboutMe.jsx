@@ -33,7 +33,7 @@ const AboutMe = () => {
                                 className='about__icon'
                             />
                             <h3 className='about__title'>Experience</h3>
-                            <p className='about__info'>1+ year <br/>Transfer Agent</p>
+                            <p className='about__info'>3+ year <br/>Office Adminitration</p>
                         </div>
                         <div className='about__details'>
                             <img 
@@ -48,9 +48,9 @@ const AboutMe = () => {
 
                     <div className='about__profile'>
                         <p> My name is Katherine. I have experince in office administration and nursing, but my passion for programming and problem
-                            solving led me to pursue a career in software development. With a strong foundation in administrative and nursing,
-                            I decided to take the leap and immerse myself in learning web development. Through a bootcamp, I gained skills necessary to build
-                            robust and efficient software solutions. My core stack includes React, Node.js and MySQL. I'm also familiar with TypeScript and TailwindCSS.
+                            solving led me to pursue a career in software development. After a career in healthcare and administration,
+                            I decided to take the leap and immerse myself in learning web development. I started off my journey at BrainStation where I built serveral 
+                            projects using JavaScript and modern frameworks such as React and Node JS. I'm also familiar with TypeScript and TailwindCSS.
                             I am always on a journey to learn new technologies and improve myself.
                         </p>
                     </div>

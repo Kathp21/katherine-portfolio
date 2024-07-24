@@ -26,10 +26,10 @@
     }
 
     &__link {
-        font-size: 1.3rem;
+        font-size: $mobi-link;
 
         @include tablet {
-            font-size: 1.5rem;
+            font-size: $tablet-link;
         }
     }
 }
@@ -43,6 +43,6 @@ a {
         color: $link-hover;
         text-decoration: underline;
         text-underline-offset: 1rem;
-        text-decoration-color:  rgb(181, 181, 181);
+        text-decoration-color: $link-color;
     }
 }
