@@ -2,7 +2,7 @@ import './AboutMe.scss'
 import experience from '../../assets/icons/experience.png'
 import education from '../../assets/icons/education.png'
 import Arrow from '../Arrow/Arrow'
-import avatar from '../../assets/images/profile-picture.jpg'
+import avatar from '../../assets/images/profile-picture.png'
 
 const AboutMe = () => {
 
