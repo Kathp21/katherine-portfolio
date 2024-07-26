@@ -42,60 +42,91 @@
     }
 
     &__burger-menu {
-        display: block;
-
-        height: 24px;
-        width: 30px;
+        font-size: 1.5rem;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
 
+        @include tablet {
+            font-size: 2rem;
+        }
+
         @include desktop {
             display: none;
+        }
+
+        &--hidden {
+            display: none;
+        }
+    }
+
+    &__close-menu {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: $white;
+        z-index: 1001;
+        margin: 1rem;
+
+        @include tablet {
+            font-size: 2rem;
+            margin: 1.5rem;
+        }
+
+        @include desktop {
+            color: $black;
         }
     }
 
     &__link-container {
         display: none;
-        width: 50%;
-        position: absolute;
-        transition: all 0.3s ease-in-out;
-        top: 100%;
-        right: 0;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        z-index: 10;
 
         @include desktop {
             display: flex;
-            justify-content: space-around;
+            gap: 3rem;
             position: absolute;
-            box-shadow: none;
+            right: 0;
             top: 0;
             padding: 3.5rem;
+        }
 
+        &--open {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
         }
         
-        &--open {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+    }
+
+    &__link {
+        margin: 1rem 0;
+
+        a {
+            color: #fff;
+            font-size: 1.5rem;
+            text-decoration: none;
 
             @include desktop {
-                flex-direction: row;
+                color: $black;
+            }
+
+            &:hover {
+                color: $link-hover;
+                text-decoration: underline;
+                text-underline-offset: 1rem;
+                text-decoration-color: $link-color;
             }
         }
     }
 
 }
 
-a {
-    color: $black;
-    text-decoration: none;
-    text-decoration-color: $white;
-
-    &:hover {
-        color: $link-hover;
-        text-decoration: underline;
-        text-underline-offset: 1rem;
-        text-decoration-color: $link-color;
-    }
-}

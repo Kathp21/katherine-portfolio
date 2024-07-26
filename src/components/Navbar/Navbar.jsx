@@ -21,10 +21,17 @@ const Navbar = () => {
                     <img src={logo} alt='initial logo' className='nav__logo'/>
                 </Link>
                 <FontAwesomeIcon
-                    icon= { openMenu ? faTimes : faBars}
-                    className = 'nav__burger-menu'
-                    onClick = {toggleMenu}
+                    icon={faBars}
+                    className={`nav__burger-menu ${openMenu ? 'nav__burger-menu--hidden' : ''}`}
+                    onClick={toggleMenu}
                 />
+                {openMenu && (
+                    <FontAwesomeIcon
+                        icon={faTimes}
+                        className='nav__close-menu'
+                        onClick={toggleMenu}
+                    />
+                )}
             </nav>
             <section className={`nav__link-container ${openMenu ? 'nav__link-container--open' : ''}`}>
                 <div className="nav__link">
