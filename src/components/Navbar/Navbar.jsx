@@ -6,6 +6,7 @@ import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import logo from '../../assets/images/portfolio-logo.png'
 
+
 const Navbar = () => {
 
     const [ openMenu, setOpenMenu ] = useState(false)
