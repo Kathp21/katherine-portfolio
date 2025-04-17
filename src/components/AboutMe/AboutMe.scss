@@ -54,22 +54,22 @@
             margin-bottom: 2rem;
         }
 
-        @include desktop {
-            flex: 1;
-        }
+        // @include desktop {
+        //     flex: 1;
+        // }
     }
 
     &__photo {
-        height: 10rem;
+        height: 7rem;
         background: $photo-background;
-        border-radius: 1rem;
+        border-radius: 50%;
 
         @include tablet {
             height: 15rem;
         }
 
         @include desktop {
-            height: 25rem;
+            height: 18rem;
         }
 
         @include bigger-desktop {
@@ -107,8 +107,8 @@
     &__details {
         gap: 2rem;
         flex: 1;
-        margin-bottom: 1rem;
-        padding: 1rem;
+        margin-bottom: 0.65rem;
+        padding: 0.65rem;
         @include border-box;
     }
 
@@ -117,7 +117,7 @@
     }
 
     &__title {
-        font-size: 1rem;
+        font-size: $mobi-sub-title;
         margin: 0;
 
         @include tablet {
@@ -149,6 +149,11 @@
         @include desktop {
             padding: 0 0 0 2rem;
         }
+    }
+
+    &__text {
+        font-family: $body-typeface;
+        font-size: $mobi-paragraph;
     }
 
     &__arrow-container {

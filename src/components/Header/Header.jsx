@@ -1,4 +1,3 @@
-// import profilePic from '../../assets/images/profile-picture.JPG'
 import profilePic from '../../assets/images/about-me.png'
 import resume from '../../assets/resume/Resume-1 .pdf'
 import Navbar from '../Navbar/Navbar'

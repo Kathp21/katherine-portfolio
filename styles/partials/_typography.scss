@@ -21,3 +21,28 @@
         url('../../src/assets/typography/Poppins-Bold.ttf') format('truetype');
     font-weight: 600;
 }
+
+@font-face {
+    font-family: "Gaegu";
+    src:url('../../src/assets/typography/Gaegu-Regular.woff2') format('woff2'),
+        url('../../src/assets/typography/Gaegu-Regular.woff') format('woff'),
+        url('../../src/assets/typography/Gaegu-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gaegu";
+    src:url('../../src/assets/typography/Gaegu-Light.woff2') format('woff2'),
+        url('../../src/assets/typography/Gaegu-Light.woff') format('woff'),
+        url('../../src/assets/typography/Gaegu-Light.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gaegu";
+    src:url('../../src/assets/typography/Gaegu-Bold.woff2') format('woff2'),
+        url('../../src/assets/typography/Gaegu-Bold.woff') format('woff'),
+        url('../../src/assets/typography/Gaegu-Bold.ttf') format('truetype');
+    font-weight: 600;
+}
+

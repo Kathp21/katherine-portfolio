@@ -12,7 +12,7 @@ const Experience = () => {
         <section className="experience">
             <p className="experience__text-p1">Explore My</p>
             <h1 className="experience__title">Experience</h1>
-            <div className='experience__exp-containers'>
+            {/* <div className='experience__exp-containers'>
             <div className="experience__details-containers">
                 <div className="experience__details">
                     <h2 className="experience__sub-title">Frontend Development</h2>
@@ -124,7 +124,7 @@ const Experience = () => {
             </div>
             <div className='experience__arrow-container'>
                 <Arrow onClick={handleArrowClick}/>
-            </div>
+            </div> */}
         </section>
     )
 }
