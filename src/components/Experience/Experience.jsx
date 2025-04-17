@@ -1,17 +1,36 @@
 import './Experience.scss'
-import checkMark from '../../assets/icons/checkmark.png'
-import Arrow from '../Arrow/Arrow'
-
+import BrainStationLogo from '../../assets/images/brainstation.png'
+import SprottShawLogo from '../../assets/images/SprottShaw.gif'
 const Experience = () => {
-
-    const handleArrowClick = () => {
-        window.location.href = '#projects'
-    }
 
     return (
         <section className="experience">
             <p className="experience__text-p1">Explore My</p>
             <h1 className="experience__title">Experience</h1>
+            <section className='experience__education'>
+                <h2>Education</h2>
+                <div className='experience__container'>
+                    <img src={BrainStationLogo} alt="BrainStation Logo" className="experience__logo"/>
+                    <ul className='experience__list'>
+                        <li className='experience__item'>BrainStation</li>
+                        <li className='experience__item'>Dec 2023 - Mar 2024</li>
+                        <li className='experience__item'>Diploma, Software Engineering</li>
+                    </ul>
+                </div>
+                <div className='experience__container'>
+                    <img src={SprottShawLogo} alt="Sprott Shaw College Logo" className="experience__logo experience__logo--padding"/>
+                    <ul className='experience__list'>
+                        <li className='experience__item'>Sprott Shaw College</li>
+                        <li className='experience__item'>Sep 2014 - Jun 2016</li>
+                        <li className='experience__item'>Diploma, License Practical Nursing</li>
+                    </ul>
+                </div>
+            </section>
+
+
+
+
+
             {/* <div className='experience__exp-containers'>
             <div className="experience__details-containers">
                 <div className="experience__details">

@@ -15,6 +15,34 @@
         margin: 0;
     }
 
+    &__education {
+        padding: 1rem;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    &__logo {
+        width: auto;
+        height: 2.5rem;   
+
+        &--padding {
+            padding-left: 0.2rem;
+        }
+    }
+    &__list {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
+        margin: 0.25rem;
+    }
+
     &__details-containers {
         display: flex;
         flex-direction: column;
