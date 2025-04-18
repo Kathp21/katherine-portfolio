@@ -27,6 +27,16 @@ p {
     }
 }
 
+li {
+    font-family: 'Poppins';
+    font-size: $mobi-paragraph;
+    color: $text-color;
+    
+    @include tablet {
+        font-size: $tablet-paragraph;
+    }
+}
+
 a, button {
     transition: all 300ms ease;
 }
