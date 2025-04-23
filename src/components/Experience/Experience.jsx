@@ -5,6 +5,8 @@ import CherryOnTechLogo from '../../assets/images/CherryOnTech.png'
 import EndeavorTrustLogo from '../../assets/images/EndeavorTrust.png'
 import TheCareGroupLogo from '../../assets/images/TCC.png'
 import css from '../../assets/skills/CSS.svg'
+import Dropdown from '../Dropdown/Dropdown'
+import DropdownTechnical from '../DropdownTechnical/DropdownTechnical'
 
 const Experience = () => {
 
@@ -60,9 +62,8 @@ const Experience = () => {
             </section>
             <section>
                 <h2>SKILLS</h2>
-                <select>
-                    <option><img src={css}/></option>
-                </select>
+
+                <DropdownTechnical/>
             </section>
 
 
