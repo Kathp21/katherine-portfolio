@@ -7,6 +7,7 @@ import TheCareGroupLogo from '../../assets/images/TCC.png'
 import css from '../../assets/skills/CSS.svg'
 import Dropdown from '../Dropdown/Dropdown'
 import DropdownTechnical from '../DropdownTechnical/DropdownTechnical'
+import DropdownTool from '../DropdownTool/DropdownTool'
 
 const Experience = () => {
 
@@ -62,8 +63,8 @@ const Experience = () => {
             </section>
             <section>
                 <h2>SKILLS</h2>
-
                 <DropdownTechnical/>
+                <DropdownTool/>
             </section>
 
 

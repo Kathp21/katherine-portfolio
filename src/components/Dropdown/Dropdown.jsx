@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './Dropdown.scss'
 import { RiArrowDropDownLine } from "react-icons/ri";
 
- const Dropdown = ({title, skills}) => {
+ const Dropdown = ({title, skills, otherTitle, otherText}) => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
@@ -24,8 +24,15 @@ import { RiArrowDropDownLine } from "react-icons/ri";
                                 <span className="dropdown__skill-name">{skill.name}</span>
                             </li>
                         ))}
+                        {otherTitle &&(
+                            <li className="dropdown__other-section">
+                                <h4 className="dropdown__other-title">{otherTitle}</h4>
+                                <p className="dropdown__other-text">{otherText}</p>
+                            </li>
+                        )}
                     </ul>
                 )}
+
             </div>
         </div>
     )

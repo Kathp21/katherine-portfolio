@@ -14,26 +14,23 @@ import Express from '../../assets/skills/ExpressJS-Dark.svg'
 import Dropdown from "../Dropdown/Dropdown";
 
 const techSkills = [
-    { name: "CSS", icon: cssSkill },
     { name: "HTML", icon: HTML},
-    { name: "JavaScript", icon: JavaScript},
-    { name: "Node.js", icon: Node},
-    { name: "PostgreSQL", icon: PostgreSQL},
-    { name: "MySQL", icon: MySQL},
-    { name: "TypeScript", icon: TypeScript},
-    { name: "React", icon: ReactSkill},
-    { name: "Vite", icon: ViteSkill},
-    { name: "TailwindCSS", icon: Tailwind},
+    { name: "CSS", icon: cssSkill },
+    { name: "JAVASCRIPT", icon: JavaScript},
+    { name: "NODE.JS", icon: Node},
+    { name: "MYSQL", icon: MySQL},
+    { name: "TYPESCRIPT", icon: TypeScript},
+    { name: "REACT", icon: ReactSkill},
+    { name: "EXPRESS", icon: Express},
+    { name: "TAILWIND", icon: Tailwind},
     { name: "SASS", icon: Sass},
-    { name: "Express", icon: Express},
+    { name: "VITE", icon: ViteSkill},
+    { name: "POSTGRESQL", icon: PostgreSQL},
 ];
 
 const DropdownTechnical = () => {
     return (
-
         <Dropdown title="Technical" skills={techSkills}/>
-
-      
     )
 }
 
