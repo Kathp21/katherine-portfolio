@@ -14,6 +14,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
                         size={24} 
                         onClick={() => setIsOpen(!isOpen)}
                         style={{cursor: "pointer"}}
+                        className={`dropdown__arrow ${isOpen ? "open" : ""}`}
                     />
                 </div>
                 {isOpen && (
