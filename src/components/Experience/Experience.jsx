@@ -8,6 +8,7 @@ import css from '../../assets/skills/CSS.svg'
 import Dropdown from '../Dropdown/Dropdown'
 import DropdownTechnical from '../DropdownTechnical/DropdownTechnical'
 import DropdownTool from '../DropdownTool/DropdownTool'
+import DropdownSoftSkills from '../DropdownSoftSkills/DropdownSoftSkills'
 
 const Experience = () => {
 
@@ -65,6 +66,7 @@ const Experience = () => {
                 <h2>SKILLS</h2>
                 <DropdownTechnical/>
                 <DropdownTool/>
+                <DropdownSoftSkills/>
             </section>
 
 

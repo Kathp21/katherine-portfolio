@@ -17,11 +17,15 @@ import { RiArrowDropDownLine } from "react-icons/ri";
                     />
                 </div>
                 {isOpen && (
-                    <ul className="dropdown__menu dropdown__menu--tech-skills">
+                    <ul className="dropdown__menu">
                         {skills.map((skill) => (
                             <li key={skill.name} className="dropdown__item">
-                            <img src={skill.icon} alt={skill.name} className="dropdown__icon"/>
-                                <span className="dropdown__skill-name">{skill.name}</span>
+                                {typeof skill.icon === "string" && skill.icon.includes('/') ?(
+                                    <img src={skill.icon} alt={skill.name} className="dropdown__icon"/> 
+                                ): (
+                                    <span className="dropdown__icon-emoji">{skill.icon}</span>
+                                )}
+                                <span className="dropdown__skill-name dropdown__skill-name--style">{skill.name}</span>
                             </li>
                         ))}
                         {otherTitle &&(
@@ -32,7 +36,6 @@ import { RiArrowDropDownLine } from "react-icons/ri";
                         )}
                     </ul>
                 )}
-
             </div>
         </div>
     )
