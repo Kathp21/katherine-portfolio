@@ -17,9 +17,9 @@ const ProjectCard = ({projects}) => {
                         <h2 className="project-card__summary-title">{project.name}</h2>
                         <div className="project-card__details">
                             <p className="project-card__summary-text">{project.summary}</p>
-                            <div>
-                                <button>GitHub</button>
-                                <button>Live Demo</button>
+                            <div className="project-card__button-container">
+                                <button className="project-card__button">GitHub</button>
+                                <button className="project-card__button">Live Demo</button>
                             </div>
                         </div>
                     </div>

@@ -2,8 +2,6 @@
 @use '../../../styles/partials/variables' as *;
 
 .project-card {
-
-    // padding: 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,5 +55,22 @@
       
     &__summary-text {
         font-size: 0.8rem;
+    }
+
+    &__button-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+        
+    }
+
+    &__button {
+        color: white;
+        background-color: #ff8559;
+        border: none;
+        border-radius: 12px;
+        padding: 0.25rem 1rem;
+        font-family: "Gaegu";
+        font-size: 1rem;
     }
 }
