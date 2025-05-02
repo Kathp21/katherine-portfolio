@@ -30,7 +30,11 @@ const techSkills = [
 
 const DropdownTechnical = () => {
     return (
-        <Dropdown title="Technical" skills={techSkills}/>
+        <Dropdown 
+            title="Technical" 
+            skills={techSkills}
+            position="first"
+        />
     )
 }
 

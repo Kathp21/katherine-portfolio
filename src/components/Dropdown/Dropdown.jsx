@@ -2,11 +2,11 @@ import React, {useState} from "react";
 import './Dropdown.scss'
 import { RiArrowDropDownLine } from "react-icons/ri";
 
- const Dropdown = ({title, skills, otherTitle, otherText}) => {
+ const Dropdown = ({title, skills, otherTitle, otherText, position}) => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className="dropdown">
+        <div className={`dropdown dropdown--${position}`}>
             <div className="dropdown__menu-container">
                 <div className="dropdown__menu-title">
                     <h3>{title}</h3>

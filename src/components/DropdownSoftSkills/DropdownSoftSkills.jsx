@@ -24,6 +24,7 @@ const DropdownSoftSkills = () => {
         <Dropdown
             title="Soft"
             skills={softSkills}
+            position="last"
         />
     )
 }

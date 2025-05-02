@@ -3,7 +3,7 @@
 
 
 .dropdown {
-    
+
     @include tablet {
         width: 75%;
     }
@@ -21,10 +21,22 @@
     }
 
     &__menu-container{
-        background: white;
-        border: 1px solid #ccc;      
-        border-radius: 8px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        background: white;     
+        // border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.09);
+        border-top: 1px solid #eee;
+
+        .dropdown--first & {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .dropdown--last & {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
     }
 
     &__menu-title{
