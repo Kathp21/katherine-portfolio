@@ -20,7 +20,7 @@ import jiraBadge from '../../assets/badges/jira-badge.svg'
 import javascriptBadge from '../../assets/badges/javascript-badge.svg'
 import githubBadge from '../../assets/badges/github-badge.svg'
 import expressBadge from '../../assets/badges/express-badge.svg'
-// import herokuBadge from '../../assets/badges/heroku-badge.svg'
+import herokuBadge from '../../assets/badges/heroku-badge.svg'
 import postmanBadge from '../../assets/badges/postman-badge.svg'
 import jsonBadge from '../../assets/badges/json-badge.png'
 import jsonTokenBadge from '../../assets/badges/JWT-black-badge.svg'
@@ -33,10 +33,12 @@ const projectsInfo = [
     { 
         name: "Trip Crafters", image: tripCrafters, 
         summary: "Plan personalized trips with smart recommendations.", 
-        badge: [reactBadge, chatGPTBadge, javascriptBadge, sassBadge, jsonTokenBadge, axiosBadge, postmanBadge, netlifyBadge, expressBadge, nodeBadge,githubBadge, vercelBadge]},
+        badge: [reactBadge, chatGPTBadge, javascriptBadge, sassBadge, jsonTokenBadge, axiosBadge, postmanBadge, netlifyBadge, expressBadge, nodeBadge,githubBadge, vercelBadge, herokuBadge]
+    },
     { 
         name: "EmpowerMe", 
         image: empowerMe,
+        summary: "Responsive web app helps individuals with imposter syndrome transition to the tech industry by identifying their transferable skills and teaching them to communicate their value with confidence.",
         badge: [sassBadge, reactBadge, viteBadge, typescriptBadge, jiraBadge, figmaBadge, tailwindBadge,githubBadge]
     },
     { 
