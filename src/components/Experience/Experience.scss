@@ -178,5 +178,12 @@
 
     &__skills-section{
         padding: 1rem;
+
+
+        @include tablet{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }

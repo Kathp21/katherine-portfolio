@@ -3,7 +3,14 @@
 
 
 .dropdown {
-   
+    
+    @include tablet {
+        width: 75%;
+    }
+
+    @include desktop {
+        width: 58rem;
+    }
 
     &__btn {
         padding: 12px 24px;
