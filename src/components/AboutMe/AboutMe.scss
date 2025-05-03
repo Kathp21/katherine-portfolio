@@ -33,30 +33,22 @@
 
         @include tablet {
             padding: 2rem 3rem;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 50rem;
+            margin: 0 auto;
         }
 
         @include desktop {
-            flex-direction: row;
-            align-items: center;
-            padding: 2rem 8rem;
-        }
-
-        @include bigger-desktop {
-            padding: 2rem 15rem;
+            max-width: 60rem;
         }
     }
 
     &__photo-container {
         display: flex;
         justify-content: center;
-
-        @include tablet {
-            margin-bottom: 2rem;
-        }
-
-        // @include desktop {
-        //     flex: 1;
-        // }
     }
 
     &__photo {
@@ -65,15 +57,7 @@
         border-radius: 50%;
 
         @include tablet {
-            height: 15rem;
-        }
-
-        @include desktop {
-            height: 18rem;
-        }
-
-        @include bigger-desktop {
-            height: 19rem;
+            height: 10rem;
         }
     }
 
