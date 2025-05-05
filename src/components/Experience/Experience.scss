@@ -15,11 +15,36 @@
         margin: 0;
     }
 
-    &__education {
-        padding: 0 1rem;
+    &__section-container{
+        
+        @include bigger-tablet {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0 5rem;
+        }
+    }
+
+    &__section-education {
+        padding: 0 2rem;
 
         @include tablet {
             padding-left: 5rem;
+        }
+
+        @include bigger-tablet {
+            padding: 0;
+        }
+    }
+
+    &__section-professional {
+        padding: 0 2rem;
+
+        @include tablet {
+            padding-left: 5rem;
+        }
+
+        @include bigger-tablet {
+            padding: 0;
         }
     }
 
@@ -53,6 +78,11 @@
     &__item {
         margin: 0.25rem;
         font-family: $body-typeface;
+        font-size: 0.75rem;
+
+        @include tablet {
+            font-size: 0.813rem;
+        }
     }
 
     &__details-containers {
@@ -185,8 +215,7 @@
     }
 
     &__skills-section{
-        padding: 1rem;
-
+        padding: 0 2rem 2rem 2rem;
 
         @include tablet{
             display: flex;
