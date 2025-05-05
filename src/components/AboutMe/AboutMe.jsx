@@ -19,9 +19,9 @@ const AboutMe = () => {
 
                 <div className='about__text-container'>
                     <div className='about__profile'>
-                        <p className='about__text'> My name is Katherine. I have experince in office administration and nursing, but my passion for programming and problem
+                        <p className='about__text'> My name is Katherine. I have experience in office administration and nursing, but my passion for programming and problem
                             solving led me to pursue a career in software development. After a career in healthcare and administration,
-                            I decided to take the leap and immerse myself in learning web development. I started off my journey at BrainStation where I built serveral 
+                            I decided to take the leap and immerse myself in learning web development. I started off my journey at BrainStation where I built several 
                             projects using JavaScript and modern frameworks such as React and Node JS. I'm also familiar with TypeScript and TailwindCSS.
                             I am always on a journey to learn new technologies and improve myself.
                         </p>
