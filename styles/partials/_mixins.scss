@@ -20,12 +20,6 @@
   }
 }
 
-@mixin bigger-tablet {
-  @media (min-width: $bigger-tab-breakpoint) {
-    @content;
-  }
-}
-
 @mixin bigger-desktop {
   @media (min-width: $bigger-desktop-breakpoint) {
     @content;

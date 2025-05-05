@@ -19,7 +19,6 @@
         grid-auto-rows: auto;
         max-width: 800px;
         margin: 0 auto;
-
     }
 
     &__container {
@@ -42,7 +41,7 @@
         }
 
         @include desktop {
-            width: 18rem;
+            width: 16.5rem;
         }
     }
 
