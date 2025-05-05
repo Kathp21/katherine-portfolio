@@ -14,8 +14,8 @@ const Experience = () => {
         <section className="experience">
             <p className="experience__text-p1">Explore My</p>
             <h1 className="experience__title">Experience</h1>
-            <section className='experience__subheader'>
-                <h2>EDUCATION</h2>
+            <section className='experience__education'>
+                <h2  className='experience__subheader'>EDUCATION</h2>
                 <div className='experience__container'>
                     <img src={BrainStationLogo} alt="BrainStation Logo" className="experience__logo"/>
                     <ul className='experience__list'>
@@ -33,8 +33,8 @@ const Experience = () => {
                     </ul>
                 </div>
             </section>
-            <section className='experience__subheader'>
-                <h2>PROFESSIONAL</h2>
+            <section className='experience__education'>
+                <h2 className='experience__subheader'>PROFESSIONAL</h2>
                 <div className='experience__container'>
                     <img src={CherryOnTechLogo} alt="BrainStation Logo" className="experience__logo"/>
                     <ul className='experience__list'>

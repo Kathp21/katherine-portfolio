@@ -15,8 +15,16 @@
         margin: 0;
     }
 
-    &__subheader {
+    &__education {
         padding: 0 1rem;
+
+        @include tablet {
+            padding-left: 5rem;
+        }
+    }
+
+    &__subheader {
+        margin-bottom: 0;
     }
 
     &__container {
