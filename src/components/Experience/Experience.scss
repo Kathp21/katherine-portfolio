@@ -7,6 +7,10 @@
     &__text-p1 {
         text-align: center;
         margin: 1rem 0 0 0;
+
+        @include desktop {
+            margin: 2rem 0 0 0;
+        }
     }
     
     &__title {
@@ -272,10 +276,6 @@
     &__skills-subheader {
         text-align: left;
         padding: 0 2rem;
-
-        // @include tablet {
-        //     padding-left: 6rem;
-        // }
 
         @include desktop {
             padding: 0 5rem;
