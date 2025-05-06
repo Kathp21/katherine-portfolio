@@ -23,10 +23,12 @@
 
     &__section-container{
         
+
         @include tablet {
             display: flex;
             justify-content: space-evenly;
             padding: 0 5rem;
+            margin: 0 auto;
         }
 
         @include desktop {
@@ -45,9 +47,17 @@
 
     &__section-professional {
         padding: 0 2rem;
+        max-width: 1200px;
 
         @include tablet {
             padding: 0;
+        }
+    }
+
+    &__section-inner {
+        @include desktop {
+            max-width: 900px;
+            margin: 0 auto;
         }
     }
 
@@ -227,6 +237,21 @@
         flex: 1;
     }
 
+    &__skills-section {
+        width: 100%;
+        max-width: 1200px; 
+        margin: 0 auto;
+        padding: 2rem 1rem;
+
+        @include tablet {
+            padding: 1rem 5rem;
+        } 
+
+        @include desktop {
+            max-width: 1200px;
+        }
+    }
+
     &__skills-dropdown-menu{
         padding: 0 2rem 2rem 2rem;
 
@@ -235,6 +260,12 @@
             flex-direction: column;
             align-items: center;
             padding: 0 0 2rem 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @include desktop {
+            max-width: 1200px;
         }
     }
 
@@ -242,12 +273,12 @@
         text-align: left;
         padding: 0 2rem;
 
-        @include tablet {
-            padding-left: 6rem;
-        }
+        // @include tablet {
+        //     padding-left: 6rem;
+        // }
 
         @include desktop {
-            padding: 0 13rem;
+            padding: 0 5rem;
         }
     }
 }

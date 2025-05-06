@@ -34,36 +34,47 @@ const projectsInfo = [
     { 
         name: "Nostalgiabx", 
         image: nostalgiabx, 
+        github: "",
+        note: "Github repo not publicly available per institution request.",
+        live: "https://nostalgiabx.com/",
         summary: "Responsive web application for photobooth rental and DJ services. Where customers can requests a quote and view their event gallery.", 
         badge: [reactBadge, viteBadge, mysqlBadge, typescriptBadge, tailwindBadge, jsonBadge, axiosBadge, canvasBadge, netlifyBadge, expressBadge, nodeBadge, vercelBadge, figmaBadge, githubBadge]
     },
     { 
         name: "Trip Crafters", 
         image: tripCrafters, 
+        github:"https://github.com/Kathp21/Katherine-Phan-capstone",
+        live:"https://tripcrafters.netlify.app/",
         summary: "Plan personalized trips with smart recommendations.", 
         badge: [reactBadge, chatGPTBadge, javascriptBadge, sassBadge, jsonTokenBadge, axiosBadge, postmanBadge, netlifyBadge, expressBadge, nodeBadge,githubBadge, vercelBadge, herokuBadge]
     },
     { 
         name: "EmpowerMe", 
         image: empowerMe,
+        live:"https://empowerme.netlify.app/",
+        github:"https://github.com/cherryontech/soft-skill-generator",
         summary: "Responsive web app helps individuals with imposter syndrome transition to the tech industry by identifying their transferable skills and teaching them to communicate their value with confidence.",
         badge: [sassBadge, reactBadge, viteBadge, typescriptBadge, jiraBadge, figmaBadge, tailwindBadge,githubBadge]
     },
     { 
         name: "Portfolio", 
         image: portfolio, 
+        live:"https://katherinephan-portfolio.netlify.app/",
+        github:"https://github.com/Kathp21/katherine-portfolio",
         summary: "My personal portfolio, showcasing my background, skills, and the projects I've developed.",  
         badge: [sassBadge, reactBadge, javascriptBadge, netlifyBadge, githubBadge] 
     },
     { 
         name: "Instock", 
         image: instock, 
+        github: "https://github.com/Kathp21/InStock-client-side",
         summary: "InStock is a fully responsive full-stack web app providing an inventory management system for a Fortune 500 client. It displays a list of warehouse inventory.",
         badge: [sassBadge, reactBadge, javascriptBadge, expressBadge, githubBadge, nodeBadge, axiosBadge, jsonBadge, postmanBadge, mysqlBadge]
     },
     { 
         name: "Brain Flix", 
         image: brainFlix, 
+        github: "https://github.com/Kathp21/katherine-phan-brainflix",
         summary: "Brain Flix is a fully responsive video streaming platform.",
         badge: [sassBadge, reactBadge, javascriptBadge, expressBadge, githubBadge, nodeBadge, axiosBadge, jsonBadge, postmanBadge, mysqlBadge]
     },

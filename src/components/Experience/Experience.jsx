@@ -15,8 +15,11 @@ const Experience = () => {
             <p className="experience__text-p1">Explore My</p>
             <h1 className="experience__title">Experience</h1>
             <div className='experience__section-container'>
-                <section className='experience__section-education'>
-                    <h2  className='experience__subheader'>EDUCATION</h2>
+                <section className="experience__section-education">
+                    <div className="experience__section-inner">
+                        <h2  className='experience__subheader'>EDUCATION</h2>
+                    </div>
+
                     <div className='experience__info-box'>
                         <div className='experience__container'>
                             <img src={BrainStationLogo} alt="BrainStation Logo" className="experience__logo"/>
@@ -38,7 +41,9 @@ const Experience = () => {
                 </section>
 
                 <section className='experience__section-professional'>
-                    <h2 className='experience__subheader'>PROFESSIONAL</h2>
+                    <div className="experience__section-inner">
+                        <h2  className='experience__subheader'>PROFESSIONAL</h2>
+                    </div>
                     <div className='experience__info-box'>
                         <div className='experience__container'>
                             <img src={CherryOnTechLogo} alt="BrainStation Logo" className="experience__logo"/>
@@ -68,7 +73,7 @@ const Experience = () => {
                 </section>
             </div>
 
-            <section >
+            <section className='experience__skills-section'>
                 <h2 className='experience__skills-subheader'>SKILLS</h2>
                 <div className='experience__skills-dropdown-menu'>
                     <DropdownTechnical/>
