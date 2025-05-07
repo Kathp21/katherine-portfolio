@@ -15,18 +15,19 @@
 
     &__screen {
         position: relative;
-        background-color: #fbfbfb;
-        border-left: 3rem solid #EEEEEE;
-        border-right: 3rem solid #EEEEEE;
         border-radius: 0.9375rem ;
         margin: 0 auto;
-        max-width: 700px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.09);
+        border-left: 2rem solid #EEEEEE;
+        border-right: 2rem solid #EEEEEE;
 
         @include tablet {
-            border-left: 7rem solid #EEEEEE;
-            border-right: 7rem solid #EEEEEE;
-            margin: 0 auto;
-            max-width: 1070px;
+            max-width: 70%;
+            border: none;
+        }
+
+        @include desktop {
+            max-width: 850px;
         }
     }
 
@@ -72,6 +73,7 @@
 
     &__screen-content{
         padding: 2rem;
+        background-color: #fbfbfb;
     }
 
     &__screen-item{
