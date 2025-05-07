@@ -1,8 +1,12 @@
 @use '../../../styles/partials/mixins' as *;
 @use '../../../styles/partials/variables' as *;
 
+
 .footer {
     margin-top: 2rem;
+
+    background: url('../../assets/images/footer-background.jpg');
+   
 
     &__nav-link-container {
         display: flex;
@@ -12,7 +16,7 @@
         @include tablet {
             flex-direction: row;
             justify-content: center;
-            gap: 1rem;
+            gap: 1.5rem;
             margin-bottom: 2rem;
         }
 
@@ -23,10 +27,15 @@
 
     &__copy-right {
         text-align: center;
+        margin-bottom: 0;
     }
 
     &__link {
         font-size: $mobi-link;
+
+        &--top {
+            margin-top: 1rem;
+        }
 
         @include tablet {
             font-size: $tablet-link;
@@ -38,11 +47,22 @@ a {
     color: $black;
     text-decoration: none;
     text-decoration-color: $white;
+    font-weight: bold;
 
     &:hover {
         color: $link-hover;
         text-decoration: underline;
         text-underline-offset: 1rem;
         text-decoration-color: $link-color;
+    }
+
+
+
+    @include tablet {
+        font-size: 1.5rem;
+    } 
+
+    @include desktop {
+        font-size: 2rem;
     }
 }

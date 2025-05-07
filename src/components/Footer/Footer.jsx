@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <nav className='footer'>
             <div className='footer__nav-link-container'>
-                <div className="footer__link">
+                <div className="footer__link footer__link--top">
                     <HashLink smooth to="/#about">About</HashLink>
                 </div>
                 <div className="footer__link">
