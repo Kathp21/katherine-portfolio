@@ -2,6 +2,9 @@ import './Contact.scss'
 // import mail from '../../assets/icons/email.png'
 // import linkedin from '../../assets/icons/linkedin.png'
 import { FaUser } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
+
 
 
 const Contact = () => {
@@ -47,26 +50,49 @@ const Contact = () => {
                     <div className='contact__screen-content'>
                         <div className='contact__screen-item'>
                             <div className='contact__screen-title'>
-                                <h2 className='contact__header'>Let's connect!</h2>
+                                <h2 className='contact__header'>Let's talk!</h2>
                             </div>
                             <p className='contact__screen-text'>If you'd like to connect or have any questions, ideas, or feedback, please fill out the form. I'll get back to you soon!</p>
                         </div>
                         <form className='contact__screen-form'>
                             <div className='contact__input-section'>
                                 <div className='contact__form-label'>
-                                    <label>NAME</label>
-                                    <FaUser />
+                                    <label className='contact__label'>NAME</label>
+                                    <FaUser color='rgb(101, 99, 99)' />
                                 </div>
 
                                 <input
                                     type='text'
-                                    className='contact__input-name'
+                                    className='contact__input-info'
                                 />
-                                
                             </div>
+                            <div className='contact__input-section'>
+                                <div className='contact__form-label'>
+                                    <label className='contact__label'>EMAIL</label>
+                                    <MdEmail color='rgb(101, 99, 99)' />
+                                </div>
 
+                                <input
+                                    type='email'
+                                    className='contact__input-info'
+                                />
+                            </div>
+                            <div className='contact__input-section'>
+                                <div className='contact__form-label contact__form-label--message'>
+                                    <label className='contact__label'>MESSAGE</label>
+                                </div>
 
+                                <textarea
+                                    type='text'
+                                    className='contact__input-message'
+                                    rows={5}
+                                />
+                            </div>
                         </form>
+
+                        <div className='contact__btn-container'>
+                            <button className='contact__send-btn'>Send</button>
+                        </div>
                     </div>
 
                 </div>
