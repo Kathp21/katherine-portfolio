@@ -7,6 +7,7 @@
     &__text-p1 {
         text-align: center;
         margin: 1rem 0 0 0;
+        color: #648cb6;
 
         @include desktop {
             margin: 2rem 0 0 0;
@@ -16,6 +17,7 @@
     &__title {
         text-align: center;
         margin: 0;
+        color: #789dbc;
     }
 
     &__info-box {
@@ -67,6 +69,7 @@
 
     &__subheader {
         margin-bottom: 0;
+        color:#ffb26f;
 
         @include desktop {
             margin: 2rem 0;
@@ -276,6 +279,7 @@
     &__skills-subheader {
         text-align: left;
         padding: 0 2rem;
+        color: #ffb26f;
 
         @include desktop {
             padding: 0 5rem;

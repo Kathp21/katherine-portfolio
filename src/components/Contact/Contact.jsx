@@ -48,47 +48,50 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='contact__screen-content'>
-                        <div className='contact__screen-item'>
-                            <div className='contact__screen-title'>
-                                <h2 className='contact__header'>Let's talk!</h2>
+                        <div className='contact__text-form-container'>
+                            <div className='contact__screen-item'>
+                                <div className='contact__screen-title'>
+                                    <h2 className='contact__header'>Let's talk!</h2>
+                                </div>
+                                <p className='contact__screen-text'>If you'd like to connect or have any questions, ideas, or feedback, please fill out the form. I'll get back to you soon!</p>
                             </div>
-                            <p className='contact__screen-text'>If you'd like to connect or have any questions, ideas, or feedback, please fill out the form. I'll get back to you soon!</p>
+                            <form className='contact__screen-form'>
+                                <div className='contact__input-section'>
+                                    <div className='contact__form-label'>
+                                        <label className='contact__label'>NAME</label>
+                                        <FaUser className='contact__icon' />
+                                    </div>
+
+                                    <input
+                                        type='text'
+                                        className='contact__input-info'
+                                    />
+                                </div>
+                                <div className='contact__input-section'>
+                                    <div className='contact__form-label'>
+                                        <label className='contact__label'>EMAIL</label>
+                                        <MdEmail className='contact__icon' />
+                                    </div>
+
+                                    <input
+                                        type='email'
+                                        className='contact__input-info'
+                                    />
+                                </div>
+                                <div className='contact__input-section'>
+                                    <div className='contact__form-label contact__form-label--message'>
+                                        <label className='contact__label'>MESSAGE</label>
+                                    </div>
+
+                                    <textarea
+                                        type='text'
+                                        className='contact__input-message'
+                                        rows={5}
+                                    />
+                                </div>
+                            </form>
                         </div>
-                        <form className='contact__screen-form'>
-                            <div className='contact__input-section'>
-                                <div className='contact__form-label'>
-                                    <label className='contact__label'>NAME</label>
-                                    <FaUser color='rgb(101, 99, 99)' />
-                                </div>
 
-                                <input
-                                    type='text'
-                                    className='contact__input-info'
-                                />
-                            </div>
-                            <div className='contact__input-section'>
-                                <div className='contact__form-label'>
-                                    <label className='contact__label'>EMAIL</label>
-                                    <MdEmail color='rgb(101, 99, 99)' />
-                                </div>
-
-                                <input
-                                    type='email'
-                                    className='contact__input-info'
-                                />
-                            </div>
-                            <div className='contact__input-section'>
-                                <div className='contact__form-label contact__form-label--message'>
-                                    <label className='contact__label'>MESSAGE</label>
-                                </div>
-
-                                <textarea
-                                    type='text'
-                                    className='contact__input-message'
-                                    rows={5}
-                                />
-                            </div>
-                        </form>
 
                         <div className='contact__btn-container'>
                             <button className='contact__send-btn'>Send</button>

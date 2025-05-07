@@ -6,11 +6,17 @@
     &__text-p1 {
         text-align: center;
         margin-bottom: 0;
+        color: #648cb6;
+
+        @include desktop {
+            margin-top: 3rem;
+        }
     }
 
     &__title {
         text-align: center;
         margin: 0 0 1rem 0;
+        color: #789dbc;
     }
 
     &__screen {
@@ -76,22 +82,44 @@
         background-color: #fbfbfb;
     }
 
+    &__text-form-container{
+       @include desktop{
+        display: flex;
+        align-items: flex-start;
+       }
+    }
+
     &__screen-item{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @include desktop {
+            flex: 1;
+            margin-right: 1rem;
+        }
     }
 
     &__header{
         font-size: 2.5rem;
+        color: #6962ad;
 
+        @include desktop {
+            font-size: 3rem;
+        }
     }
 
 
     &__screen-text{
         text-align: center;
         margin-top: 0;
+    }
+
+    &__screen-form {
+        @include desktop {
+            flex: 1;
+        }
     }
 
     &__input-section{
@@ -117,6 +145,17 @@
 
     &__label{
         color: rgb(101, 99, 99);
+
+        @include tablet {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__icon {
+        color: rgb(101, 99, 99);
+        @include tablet {
+            font-size: 1.3rem; 
+        }
     }
 
     &__input-info{
