@@ -12,8 +12,13 @@
     background-image: url('../../assets/images/header-background.jpg');
     padding: 0 2rem;
 
+
     @include tablet {
-        height: 50vh;
+        height: 70vh;
+    }
+
+    @include desktop {
+        height: 60vh;
     }
 
     &__container {
