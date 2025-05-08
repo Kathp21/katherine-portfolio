@@ -67,7 +67,7 @@
         }
 
         @include desktop {
-            flex: 1;
+            flex: 1.2;
         }
     }
 
@@ -97,7 +97,7 @@
 
     &__intro-container {
         position: relative;
-        
+
         &::before {
             content: "";
             background-color: #fff;
@@ -116,12 +116,12 @@
         position: relative;
         font-size: 0.9rem;
         text-align: center;
-        margin: 1rem;
         padding: 1rem 0;
         z-index: 2;
 
         @include tablet {
             font-size: 1rem;
+            padding: 1.5rem;
         }
 
         @include desktop {
