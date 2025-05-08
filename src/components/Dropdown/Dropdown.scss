@@ -42,6 +42,14 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 0.5rem;
+
+        @include tablet {
+            padding-left: 1.3rem;
+        }
+
+        @include desktop {
+            padding-left: 2rem;
+        }
     }
 
     &__menu{

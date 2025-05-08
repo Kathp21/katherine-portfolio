@@ -8,14 +8,17 @@
     &__text-p1 {
         text-align: center;
         margin: 1rem 0 0 0;
+        color: #648cb6;
     }
 
     &__title {
         text-align: center;
         margin: 0 0 1rem 0;
+        color: #789dbc;
 
         @include desktop {
             margin: 0 0 2rem 0;
+            font-size: 3rem;
         }
     }
 

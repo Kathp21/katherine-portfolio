@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
-import logo from '../../assets/images/portfolio-logo.png'
+import logo from '../../assets/images/1.png'
 
 
 const Navbar = () => {

@@ -5,9 +5,7 @@ import brainFlix from '../../assets/images/brainFlix-1.png'
 import instock from '../../assets/images/instock-2.png'
 import tripCrafters from '../../assets/images/tripCrafters-1.png'
 import empowerMe from '../../assets/images/empowerMe-2.png'
-import portfolio from '../../assets/images/portfolio-1.png'
 import sassBadge from '../../assets/badges/sass-badge.svg'
-// import html5Badge from '../../assets/badges/html-badge.svg'
 import canvasBadge from '../../assets/badges/canvas-badges.svg'
 import viteBadge from '../../assets/badges/vite-badge.svg'
 import tailwindBadge from '../../assets/badges/tailwind-badge.svg'
@@ -29,6 +27,7 @@ import chatGPTBadge from '../../assets/badges/chatGPT-badge.svg'
 import typescriptBadge from '../../assets/badges/typescript-badge.svg'
 import figmaBadge from '../../assets/badges/figma-badge.svg'
 import nostalgiabx from '../../assets/images/nostalgia.png'
+import portfolioImg from '../../assets/images/portfolio-img.png'
 
 const projectsInfo = [
     { 
@@ -58,7 +57,7 @@ const projectsInfo = [
     },
     { 
         name: "Portfolio", 
-        image: portfolio, 
+        image: portfolioImg, 
         live:"https://katherinephan-portfolio.netlify.app/",
         github:"https://github.com/Kathp21/katherine-portfolio",
         summary: "My personal portfolio, showcasing my background, skills, and the projects I've developed.",  
