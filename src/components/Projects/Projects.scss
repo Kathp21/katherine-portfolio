@@ -111,6 +111,7 @@
         padding: 8px 4px;
         width: 6rem;
         border-radius: 2rem;
+        cursor: pointer;
 
         @include tablet {
             padding: 10px;
@@ -123,24 +124,19 @@
         }
 
         &:hover {
-            cursor: pointer;
-            background: $hover-btn;
+            
+            background: #4d4d4f;
             color: $white;
         }
 
-        &:disabled {
-            border: $project-border;
-            cursor: not-allowed;
+        // &:disabled {
+        //     // border: $project-border;
+        //     cursor: not-allowed;
 
-            &:hover {
-                background-color: $disable-btn;
-                color: $project-btn-text; 
-            }
-        }
-    }
-
-    &__arrow-container {
-        display: flex;
-        justify-content: flex-end;
+        //     &:hover {
+        //         background-color: $disable-btn;
+        //         color: $project-btn-text; 
+        //     }
+        // }
     }
 }
